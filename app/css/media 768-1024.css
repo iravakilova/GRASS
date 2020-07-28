@@ -1,7 +1,7 @@
 @media only screen and (min-width : 768px) and (max-width : 1024px){
 
     body{
-        width: 100%;
+        width: 100vw;
         max-width : 1024px;
         min-width : 768px;
     }
@@ -18,18 +18,22 @@
         font-size: 16px;
         line-height: 1.2;
     }
+    .white__button button,
     .black__button button{
-        display: block;
-        margin: 10px auto;
-        border-radius: 15px;
-        width: 100%;
+        margin: 20px auto;
         max-width: 200px;
-        min-height: 40px;
+        min-height: 20px;
     }
+    .white__button a,
     .black__button a{
-        font-size: 12px;
+        font-size: 10px;
+        line-height: 1;
     }
-
+    .white__button a, .black__button a:hover{
+        border: 1px solid #fff;
+        padding: 20px;
+        transition: all 0.3s ease-in;
+    }
     /* header */
 
 .header{
@@ -170,7 +174,6 @@
     margin: 20px auto;
     background: #B9CA9D;
     opacity: 0.75;
-    border-radius: 15px;
     width: 100%;
     max-width: 250px;
     min-height: 40px;
@@ -205,7 +208,6 @@
 .features .features__table:hover .features__table__item img{
     transform: scale(1.2);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
-    border-radius: 5%;
 }
 .features .features__table .features__table__item,
 .features .features__table .features__table__item .features__table__item__point{
@@ -297,7 +299,6 @@
     margin: 20px auto 0;
     background: #B9CA9D;
     transition: all 0.5s ease-out;
-    border-radius: 20px;
     padding: 20px; 
 }
 .friend .friend__reviews .friend__reviews__item p{
@@ -501,7 +502,6 @@
     margin: 0 auto;
     background: #B9CA9D;
     opacity: 0.75;
-    border-radius: 15px;
     width: 100%;
     max-width: 145px;
     min-height: 40px;
