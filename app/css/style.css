@@ -150,6 +150,10 @@ body{
 .header .header__top .header__top__inner .header__top__inner__right .header__header__top__phone{
     padding-right: 40px;
 }
+.header .header__top .header__top__inner .header__top__inner__right .header__header__top__phone a{
+    text-decoration: none;
+    color: #fff;
+}
 .header .header__top .header__top__inner .header__top__inner__right img{
     vertical-align: middle;
 }
@@ -492,11 +496,13 @@ body{
     font-weight: bold;
     padding-top: 20px;
 }
-.terms .terms__showroom .terms__shop .terms__var .terms__point{
-    padding-bottom: 15px;
+.terms .terms__showroom .terms__shop .terms__var .terms__point img{
+    vertical-align: middle;
 }
-.terms .terms__showroom .terms__shop .terms__var p{
-    padding-bottom: 0px;
+.terms .terms__showroom .terms__shop .terms__var .terms__point a{
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: #000;
 }
 .terms .terms__showroom .terms__shop .terms__var .terms__time p{
     padding-top: 10px;
@@ -612,6 +618,10 @@ body{
 .footer .footer__inner .footer__item p{
     padding-top: 10px;
     font-size: 14px;
+}
+.footer .footer__inner .footer__item a{
+    text-decoration: none;
+    color: #fff;
 }
 .footer .footer__inner .footer__item img{
     vertical-align: middle;
