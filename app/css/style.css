@@ -147,12 +147,12 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.header .header__top .header__top__inner .header__top__inner__right .header__header__top__phone{
-    padding-right: 40px;
-}
-.header .header__top .header__top__inner .header__top__inner__right .header__header__top__phone a{
+.header .header__top .header__top__inner .header__top__inner__right a{
     text-decoration: none;
     color: #fff;
+}
+.header .header__top .header__top__inner .header__top__inner__right .header__header__top__phone{
+    padding-right: 40px;
 }
 .header .header__top .header__top__inner .header__top__inner__right img{
     vertical-align: middle;
